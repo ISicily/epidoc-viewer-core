@@ -82,3 +82,11 @@ where ‘tei’, ‘showInterpreted’, and ‘overridingRules’ take the same 
 The 'handleOpenPopup' is a function that is called whenever a popup has to be shown for something in the rendered Leiden, like corrected text.  The function takes one argument - the text to be shown in the popup.
 
 See the code in [LeidenViewer](https://github.com/ISicily/epidoc-viewer-core/blob/master/src/LeidenViewer.js) for working usage.
+
+## Updating this repo in NPM
+
+```
+npm version patch -m "Upgrade to %s"
+git push
+npm publish --access public
+```
