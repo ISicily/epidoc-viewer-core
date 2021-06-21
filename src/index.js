@@ -1,4 +1,2 @@
 import convert from "./convert"
-import LeidenViewer from "./LeidenViewer"
-
-export {convert, LeidenViewer}
+export {convert}
