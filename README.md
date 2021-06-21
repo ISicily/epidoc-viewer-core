@@ -22,11 +22,13 @@ import {LeidenViewer} from ‘@isicily/epidoc-viewer-core’
 
 then use it somewhere...
 
-```<LeidenViewer 
+```
+<LeidenViewer 
 		tei={tei} 
 		showInterpreted={false} 
 		overridingRules={someRules} 
-/>```
+/>
+```
   
 Where:
 
