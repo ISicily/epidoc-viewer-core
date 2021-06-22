@@ -1,4 +1,4 @@
-import './Leiden.css';
+import './addCSS.js';
 import rules from './rules.js'
 import diplomaticRules from './diplomaticRules.js'
 

@@ -1,3 +1,4 @@
+const styles = `
 .leiden-num-span  {
   float: left;
   width: 40px;
@@ -25,5 +26,15 @@
 }
 
 .single-space-holder::after { 
-  content: '\0020'; 
+  content: '\\0020'; 
 }
+`
+
+document.head.appendChild(document.createElement("style")).innerHTML=styles;
+
+
+
+
+
+
+
