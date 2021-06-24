@@ -4,7 +4,7 @@ const sharedRules = (isInterpreted) => {
             const type = node.getAttribute('type')
             const subtype = node.getAttribute('subtype')
             const n = node.getAttribute('n')
-            if (type === 'textpart' && subtype === 'section') {
+            if (type === 'textpart') {
                 const title = document.createElement('span')
                 title.className += ' section-heading';
                 title.append(`${subtype} ${n}`)
