@@ -6,7 +6,7 @@
 <br clear="both"/>
 <br/>
 
-![ZenodoBadge](zenodo.5071258.svg?raw=true)
+[![DOI](https://zenodo.org/badge/371140332.svg)](https://zenodo.org/badge/latestdoi/371140332)
 
 
 # epidoc-viewer-core
