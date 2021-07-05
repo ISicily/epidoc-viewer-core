@@ -2,11 +2,12 @@
   <img align="left" valign="center" src="ISicily_english_reduced.jpg?raw=true" alt="isicily logo" height=80" >
   <img align="left" valign="center" src="2258_ox_brand_blue_pos_rect.png?raw=true" alt="oxford logo" height="80"  style="padding-top: 80px" >
   <img align="left" valign="center" src="LOGO_ERC-FLAG_EU_cropped.jpg?raw=true" alt="erc logo" height=80" >
-  
 </div>
 <br clear="both"/>
 <br/>
-![ZenodoBadge](./zenodo.5071258.svg)
+
+![ZenodoBadge](zenodo.5071258.svg?raw=true)
+
 
 # epidoc-viewer-core
 
