@@ -60,6 +60,23 @@ The shared rules are used in both the diplomatic and interpreted modes.
 
 See the code in [LeidenViewer](https://github.com/ISicily/epidoc-viewer-core/blob/master/src/LeidenViewer.js) for working usage.
 
+## Font
+
+The font used in the running [I.Sicily version of this viewer](https://isicily.github.io/epidoc-viewer/) is [New Athena Unicode WOFF](https://apagreekkeys.org/NAUdownload.html).  If  you'd like to use the same font in your app, you'll have to:
+
+1.  Add the following font declaration to your css:
+
+```
+@font-face {
+  font-family: "NewAthena";
+  src: local("NewAthena"),
+  url("../fonts/newathu5_7.woff") format("woff");
+  font-weight: normal;
+}
+```
+
+2.  Add the font file to your web app and adjust the 'url' above to point to the location. A copy of the font file is [here](https://github.com/ISicily/epidoc-viewer/blob/master/src/fonts/NAU5_007woff/newathu5_7.woff)
+
 ## Updating this repo in NPM
 
 In project directory:
