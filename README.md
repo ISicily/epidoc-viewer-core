@@ -6,7 +6,7 @@
 </div>
 <br clear="both"/>
 <br/>
-![ZenodoBadge](zenodo.5071258.svg)
+![ZenodoBadge](./zenodo.5071258.svg)
 
 # epidoc-viewer-core
 
