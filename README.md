@@ -11,21 +11,33 @@
 
 # epidoc-viewer-core
 
+<div>This project has received funding from the John Fell Fund of the University of Oxford, and from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 885040, “Crossreads”).</div>
+
 Exports a javascript function for converting epidoc to Leiden: 
 
 convert - a function that takes epidoc and returns Leiden
 
 ## Usage
 
-```npm install @isicily/epidoc-viewer-core```
+Install it:
+
+```
+npm install @isicily/epidoc-viewer-core
+```
 
 OR
 
-```yarn add @isicily/epidoc-viewer-core```
+```
+yarn add @isicily/epidoc-viewer-core
+```
 
+Use it:
+
+```javascript
 import {convert} from ‘@isicily/epidoc-viewer-core’
 
 const leiden = convert(tei, handleOpenPopup, showInterpreted, overridingRules)
+```
 
 Where:
 
